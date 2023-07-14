@@ -1,0 +1,140 @@
+/* Configurações Gerais e Body */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #E9F3FB;
+}
+
+/* Barra de Navegação */
+nav{
+    background-color: #C3AED9;
+    font-weight: 600;
+}
+
+nav, #menuHeader, #menuBody{
+    font-family: montserrat;
+}
+
+NavContainer{
+    width: 300px;
+}
+
+#NavbarText{
+    font-size: 30px;
+    padding-left: 20px;
+    color: #3f1651;
+    margin-right: 10px;
+}
+#botaoRefresh{
+    width: 150px;
+    height: 50px;
+    margin-right: 150px;
+    background-color: rgb(202, 202, 202);
+}
+
+#botaoRefresh:hover{
+    background-color: #a47dba;
+}
+
+
+/* Buscador */
+form{
+    justify-content: center;
+    margin: 40px;
+}
+
+#Input{
+    width: 55%;
+}
+
+#botaoForm{
+    background-color: rgb(202, 202, 202);
+    margin-left: 30px;
+    width: 70px;
+    height: 60px;
+}
+
+#botaoForm:hover{
+    background-color: #a47dba;
+    font-weight: 600;
+}
+
+#iconForm{
+    font-size: 30px;
+    padding-top: 3px;
+}
+
+/* Offcanvas */
+#menu{
+    background-color: #9c3587;
+}
+
+#Sobre, #Gerenciador{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 400;
+    padding: 10px;
+}
+
+#Sobre:hover, #Gerenciador:hover{
+    text-decoration: underline;
+}
+
+#iconMenu{
+    padding-top: 7px;
+    font-size: 30px;
+    color: #3f1651;
+}
+
+#botaoMenu{
+    background-color: #C3AED9;
+    margin-left: 15px;
+}
+
+#botaoMenu:hover{
+    background-color: #a47dba; 
+}
+
+#botaoSair{
+    font-size: 10px;
+    background-color: #9c3587;
+}
+
+#botaoSair:hover{
+    background-color: #7a2a6a;
+}
+
+#iconClose{
+    color: #FFFFFF;
+    font-size: 30px;
+    padding-top: 8px;
+}
+
+#menuBody{
+    padding-top: 0;
+}
+
+#menuHeader{
+    padding-bottom: 0;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#MenuTitulo{
+    font-weight: 600;
+}
+
+#MenuTitulo, #Sobre, #Gerenciador{
+    color: #FFFFFF;
+}
+
+/* Body */
+
+#ContainerLink{
+    height: auto;
+    margin-top: 30px;
+    border: solid 1px;
+}
